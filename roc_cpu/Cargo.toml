@@ -1,0 +1,9 @@
+[package]
+name = "roc_cpu"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+roc_cpu_proc = { path = "./roc_cpu_proc" }
+roc_cpu_traits = { path = "./roc_cpu_traits" }
+sdl3 = "0.14.16"
